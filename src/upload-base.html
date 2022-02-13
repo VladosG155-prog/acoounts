@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    @include('./layouts/components/head.html')
+<body>
+    @include('./layouts/header.html')
+   <main class="main">
+    <div class="container">
+        <div class="d-flex lc__tabs--s mt-5 justify-content-between align-items-center">
+            <div class="lc__tab d-flex align-items-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9 22V12H15V22" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Дашборд</span>
+            </div>
+            <div class="lc__tab d-flex align-items-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                <span>Аккаунт</span>
+            </div>
+            <div class="lc__tab d-flex align-items-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 21V19C16 17.9391 15.5786 16.9217 14.8284 16.1716C14.0783 15.4214 13.0609 15 12 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.5 11C10.7091 11 12.5 9.20914 12.5 7C12.5 4.79086 10.7091 3 8.5 3C6.29086 3 4.5 4.79086 4.5 7C4.5 9.20914 6.29086 11 8.5 11Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20 8V14" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M23 11H17" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                <span>Партнёрка</span>
+                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L13 1" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+                    
+            </div>
+            <div class="lc__tab d-flex align-items-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 21V19C16 17.9391 15.5786 16.9217 14.8284 16.1716C14.0783 15.4214 13.0609 15 12 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8 11C10.2091 11 12 9.20914 12 7C12 4.79086 10.2091 3 8 3C5.79086 3 4 4.79086 4 7C4 9.20914 5.79086 11 8 11Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17 11L19 13L23 9" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                <span>Продавцы</span>
+                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L13 1" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="lc__tab d-flex align-items-center active">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M23 20.9999V18.9999C22.9993 18.1136 22.7044 17.2527 22.1614 16.5522C21.6184 15.8517 20.8581 15.3515 20 15.1299" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 3.12988C16.8604 3.35018 17.623 3.85058 18.1676 4.55219C18.7122 5.2538 19.0078 6.11671 19.0078 7.00488C19.0078 7.89305 18.7122 8.75596 18.1676 9.45757C17.623 10.1592 16.8604 10.6596 16 10.8799" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                <span>Покупатели</span>
+                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L13 1" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="lc__tab d-flex align-items-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.3359 15.29C21.3359 15.8205 21.1252 16.3292 20.7502 16.7043C20.3751 17.0793 19.8664 17.29 19.3359 17.29H7.33594L3.33594 21.29V5.29004C3.33594 4.75961 3.54665 4.2509 3.92172 3.87583C4.2968 3.50075 4.8055 3.29004 5.33594 3.29004H19.3359C19.8664 3.29004 20.3751 3.50075 20.7502 3.87583C21.1252 4.2509 21.3359 4.75961 21.3359 5.29004V15.29Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                    
+                <span>Чат</span>
+            </div>
+            <div class="lc__tab d-flex align-items-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.08984 8.99959C9.32495 8.33126 9.789 7.7677 10.3998 7.40873C11.0106 7.04975 11.7287 6.91853 12.427 7.0383C13.1253 7.15808 13.7587 7.52112 14.2149 8.06312C14.6712 8.60512 14.9209 9.29112 14.9198 9.99959C14.9198 11.9996 11.9198 12.9996 11.9198 12.9996" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 17H12.01" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                <span>FAQ</span>
+            </div>
+            <div class="lc__tab d-flex align-items-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.72656 3.31836H4.72656C4.19613 3.31836 3.68742 3.52907 3.31235 3.90415C2.93728 4.27922 2.72656 4.78793 2.72656 5.31836L2.72656 19.3184C2.72656 19.8488 2.93728 20.3575 3.31235 20.7326C3.68742 21.1076 4.19613 21.3184 4.72656 21.3184H8.72656" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15.7266 7.31836L20.7266 12.3184L15.7266 17.3184" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20.7266 12.3184L8.72656 12.3184" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 
+                <span>Выход</span>
+            </div>
+        </div>
+        <div class="lc__seller mt-5">
+            <h2 class="mb-5">Загрузка базы аккаунтов</h2>
+            <div class="row upload-base">
+                <div class="col-6">
+                    <div class="lc__input--wrap">
+                        <label for="">Описание</label>
+                        <input type="text" placeholder="Ведите описание базы" class="main-inp">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="lc__input--wrap">
+                        <label for="">Формат</label>
+                        <input type="text" placeholder="Формат" class="main-inp">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <label for="">Выберите категорию</label>
+                    <div class="custom-select">
+                        <div class="custom-select-top">
+                            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L7 7L13 1" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+                             </svg>
+                                
+                            <input class="custom-select-inp" value="Аккаунты Instagram" readonly>
+                        </div>
+                       <div class="custom-select-open">
+                           <span>Аккаунты Vk</span>
+                           <span>Аккаунты Mail</span>
+                           <span>Аккаунты Steam</span>
+                       </div>
+                           
+                    </div>
+                </div>
+                <div class="col-3">
+                    <label for="">Тип аккаунтов:</label>
+                    <div class="custom-select">
+                        <div class="custom-select-top">
+                            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L7 7L13 1" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+                             </svg>
+                                
+                            <input class="custom-select-inp" value="Автореги" readonly>
+                        </div>
+                       <div class="custom-select-open">
+                           <span>Автореги1</span>
+                           <span>Автореги2</span>
+                           <span>Автореги3</span>
+                       </div>
+                           
+                    </div>
+                </div>
+                <div class="col-3">
+                    <label for="">Выберите пол</label>
+                    <div class="custom-select">
+                        <div class="custom-select-top">
+                            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L7 7L13 1" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+                             </svg>
+                                
+                            <input class="custom-select-inp" value="mix" readonly>
+                        </div>
+                       <div class="custom-select-open">
+                           <span>mix</span>
+                           <span>male</span>
+                           <span>female</span>
+                       </div>
+                           
+                    </div>
+                </div>
+                <div class="col-3">
+                    <label for="">Стоимость 1шт</label>
+                    <div class="input-sum">
+                        <input type="text" value="100" class="sumInp w-100" min="1">
+                        <svg width="9" height="11" viewBox="0 0 9 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.05 6.8375V5.84H5.1875C5.2725 5.84 5.375 5.835 5.495 5.825C5.615 5.815 5.7375 5.7975 5.8625 5.7725C6.4025 5.6525 6.805 5.3875 7.07 4.9775C7.34 4.5625 7.475 4.0925 7.475 3.5675C7.475 3.2275 7.4175 2.9 7.3025 2.585C7.1875 2.27 7.01 2 6.77 1.775C6.53 1.55 6.2275 1.3975 5.8625 1.3175C5.7425 1.2875 5.62 1.27 5.495 1.265C5.37 1.26 5.2675 1.2575 5.1875 1.2575H2.0525V0.2H5.2175C5.3025 0.2 5.41 0.205 5.54 0.214999C5.675 0.22 5.8225 0.235 5.9825 0.26C6.5425 0.35 7.0175 0.5475 7.4075 0.8525C7.8025 1.1525 8.1 1.535 8.3 2C8.505 2.465 8.6075 2.98 8.6075 3.545C8.6075 4.385 8.3825 5.0975 7.9325 5.6825C7.4875 6.2675 6.8375 6.6325 5.9825 6.7775C5.8225 6.7975 5.675 6.8125 5.54 6.8225C5.41 6.8325 5.3025 6.8375 5.2175 6.8375H0.05ZM0.05 9.17V8.225H5.8475V9.17H0.05ZM1.1975 11V0.2H2.3V11H1.1975Z" fill="#7C839D"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-3 offset-6 mt-4">
+                    <div class="text-upload d-flex justify-content-center align-items-center">
+                        <input type="file">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14 2V8H20" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 18V12" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 15H15" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span><a href="">Добавить файл</a>  тхт или csv</span>
+                    </div>
+                </div>
+                <div class="col-3 mt-4">
+                    <button class="save-changes  go-pay col-12 mr-0">Пополнить</button>
+                </div>
+            </div>
+        </div>
+       </div>
+   </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+    @include('./layouts/footer.html')
+</body>
+</html>

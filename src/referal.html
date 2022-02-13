@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    @include('./layouts/components/head.html')
+<body>
+    @include('./layouts/header.html')
+   <main class="main">
+    <div class="container">
+        <div class="kroshki">
+            <a href="index.html">Главная</a>
+            <span>/</span>
+            <a href="#">Личный кабинет</a>
+            <span>/</span>
+            <span>Реферальная программа</span>
+        </div>
+        <h1 class="main__title mb-5">Личный кабинет</h1>
+        <div class="row">
+            <div class="col-3 col-md-3 col-sm-12 seller-infos">
+                <div class="lc__navigation">
+                    <div class="lc__navigation--balance d-flex justify-content-between align-items-center">
+                        <h3>Баланс </h3>
+                        <div class="lc__navigation--deposit d-flex flex-column align-items-end">
+                            <span>0.00₽</span>
+                            <a href="#">Пополнить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="lc__navigation--item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Аккаунт</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.3359 13.291C19.3359 13.8214 19.1252 14.3302 18.7502 14.7052C18.3751 15.0803 17.8664 15.291 17.3359 15.291H5.33594L1.33594 19.291V3.29102C1.33594 2.76058 1.54665 2.25187 1.92172 1.8768C2.2968 1.50173 2.8055 1.29102 3.33594 1.29102H17.3359C17.8664 1.29102 18.3751 1.50173 18.7502 1.8768C19.1252 2.25187 19.3359 2.76058 19.3359 3.29102V13.291Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                        <span>Заявки</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 4H3C1.89543 4 1 4.89543 1 6V18C1 19.1046 1.89543 20 3 20H21C22.1046 20 23 19.1046 23 18V6C23 4.89543 22.1046 4 21 4Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 10H23" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                            
+                        <span>Пополнение баланса</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item ">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                            
+                            
+                        <span>Мои покупки</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item active">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M23 21.0009V19.0009C22.9993 18.1146 22.7044 17.2536 22.1614 16.5532C21.6184 15.8527 20.8581 15.3524 20 15.1309" stroke="#7C839D" stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 3.13086C16.8604 3.35116 17.623 3.85156 18.1676 4.55317C18.7122 5.25478 19.0078 6.11769 19.0078 7.00586C19.0078 7.89403 18.7122 8.75694 18.1676 9.45855C17.623 10.1602 16.8604 10.6606 16 10.8809" stroke="#7C839D" stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>  
+                            
+                        <span>Реферальная программа</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.72656 3.31836H4.72656C4.19613 3.31836 3.68742 3.52907 3.31235 3.90415C2.93728 4.27922 2.72656 4.78793 2.72656 5.31836L2.72656 19.3184C2.72656 19.8488 2.93728 20.3575 3.31235 20.7326C3.68742 21.1076 4.19613 21.3184 4.72656 21.3184H8.72656" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.7266 7.31836L20.7266 12.3184L15.7266 17.3184" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20.7266 12.3184L8.72656 12.3184" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                            
+                        <span>Выход</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-9 w-100-mob">
+               <div class="referal__start">
+                   <h5 class="mb-2">Ваша реферальная ссылка</h5>
+                   <div class="d-flex">
+                       <div class="link d-flex justify-content-center align-items-center"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.5 9.75095C7.82209 10.1815 8.23302 10.5378 8.70491 10.7957C9.17681 11.0535 9.69863 11.2068 10.235 11.2452C10.7713 11.2836 11.3097 11.2062 11.8135 11.0183C12.3173 10.8303 12.7748 10.5363 13.155 10.156L15.405 7.90595C16.0881 7.19869 16.4661 6.25143 16.4575 5.2682C16.449 4.28496 16.0546 3.34441 15.3593 2.64913C14.664 1.95385 13.7235 1.55947 12.7403 1.55092C11.757 1.54238 10.8098 1.92036 10.1025 2.60345L8.8125 3.88595" stroke="#8A8B8E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.5006 8.24992C10.1785 7.81933 9.76762 7.46304 9.29573 7.20522C8.82383 6.9474 8.30201 6.79409 7.76565 6.75567C7.22929 6.71726 6.69095 6.79465 6.18713 6.98259C5.68331 7.17053 5.2258 7.46462 4.84564 7.84492L2.59564 10.0949C1.91255 10.8022 1.53457 11.7494 1.54311 12.7327C1.55165 13.7159 1.94604 14.6565 2.64132 15.3517C3.3366 16.047 4.27715 16.4414 5.26038 16.45C6.24362 16.4585 7.19088 16.0805 7.89814 15.3974L9.18064 14.1149" stroke="#8A8B8E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </div>
+                        <input type="text" value="https://num1market.com/?ref=348498" disabled class="input-copy">
+                        <button class="copy d-flex justify-content-center align-items-center"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.5 9.5H11.5C10.3954 9.5 9.5 10.3954 9.5 11.5V20.5C9.5 21.6046 10.3954 22.5 11.5 22.5H20.5C21.6046 22.5 22.5 21.6046 22.5 20.5V11.5C22.5 10.3954 21.6046 9.5 20.5 9.5Z" stroke="#3867BD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M5.5 15.5H4.5C3.96957 15.5 3.46086 15.2893 3.08579 14.9142C2.71071 14.5391 2.5 14.0304 2.5 13.5V4.5C2.5 3.96957 2.71071 3.46086 3.08579 3.08579C3.46086 2.71071 3.96957 2.5 4.5 2.5H13.5C14.0304 2.5 14.5391 2.71071 14.9142 3.08579C15.2893 3.46086 15.5 3.96957 15.5 4.5V5.5" stroke="#3867BD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            </button>
+                   </div>
+               </div>
+               <div class="wallet-stats mb-5 mt-3 d-flex justify-content-between">
+                <div class="col-2"><div class="payment wallet-start-pay wallet d-flex justify-content-center align-items-center">
+                    <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.404 1.56616L1.93725 16.0329C0.809979 17.1603 0.809979 18.988 1.93725 20.1153L10.5275 28.7057C11.6549 29.833 13.4825 29.833 14.6099 28.7057L29.0767 14.2389C30.2039 13.1115 30.2039 11.2839 29.0767 10.1565L20.4863 1.56616C19.359 0.438885 17.5313 0.438885 16.404 1.56616Z" fill="#5EADF5"/>
+                        <path d="M22.9823 4.40482L5.2641 14.6343C3.88347 15.4315 3.41042 17.1969 4.20751 18.5776L10.2818 29.0986C11.079 30.4792 12.8443 30.9523 14.225 30.1552L31.9431 19.9256C33.3238 19.1284 33.7968 17.3631 32.9997 15.9824L26.9255 5.46135C26.1283 4.08071 24.3629 3.60766 22.9823 4.40482Z" fill="#A9D6FF"/>
+                        <path d="M29.918 36.2754H4.19141C2.27564 36.2754 0.722656 34.7224 0.722656 32.8066V14.8848C0.722656 12.969 2.27564 11.416 4.19141 11.416H29.918C31.8337 11.416 33.3867 12.969 33.3867 14.8848V32.8066C33.3867 34.7224 31.8337 36.2754 29.918 36.2754Z" fill="#EAF5FF"/>
+                        <path d="M34.832 27.0254H27.3164C25.5603 27.0254 24.1367 25.6018 24.1367 23.8457C24.1367 22.0896 25.5603 20.666 27.3164 20.666H34.832C35.6303 20.666 36.2773 21.3131 36.2773 22.1113V25.5801C36.2773 26.3783 35.6303 27.0254 34.832 27.0254Z" fill="#A9D6FF"/>
+                        <path d="M34.832 19.9437H34.1094V14.8851C34.1094 12.8909 32.709 11.2186 30.8402 10.7972L27.5511 5.10018C27.069 4.2653 26.2907 3.66802 25.3595 3.41849C24.7019 3.24238 24.0239 3.25531 23.3881 3.44725L20.9964 1.05548C19.589 -0.351753 17.2994 -0.351897 15.892 1.05548L6.25394 10.6937H4.19141C1.88028 10.6937 0 12.574 0 14.8851V32.807C0 35.1181 1.88028 36.9984 4.19141 36.9984H22.8027C23.2018 36.9984 23.5254 36.6748 23.5254 36.2757C23.5254 35.8767 23.2018 35.5531 22.8027 35.5531H4.19141C2.67722 35.5531 1.44531 34.3212 1.44531 32.807V14.8851C1.44531 13.3709 2.67722 12.139 4.19141 12.139H29.918C31.4321 12.139 32.6641 13.3709 32.6641 14.8851V19.9437H27.3164C25.1647 19.9437 23.4141 21.6943 23.4141 23.846C23.4141 25.9977 25.1647 27.7484 27.3164 27.7484H32.6641V32.807C32.6641 34.3212 31.4321 35.5531 29.918 35.5531H20.3066C19.9076 35.5531 19.584 35.8767 19.584 36.2757C19.584 36.6748 19.9076 36.9984 20.3066 36.9984H29.918C32.2291 36.9984 34.1094 35.1181 34.1094 32.807V27.7484H34.832C36.0275 27.7484 37 26.7758 37 25.5804V22.1117C37 20.9163 36.0275 19.9437 34.832 19.9437ZM24.9854 4.81459C25.5437 4.96418 26.0104 5.32226 26.2994 5.82284L29.1116 10.6937H13.5348L23.3433 5.03074C23.8438 4.74182 24.4269 4.66493 24.9854 4.81459ZM16.9141 2.07753C17.3227 1.66879 17.8662 1.44369 18.4442 1.44369C19.0223 1.44369 19.5658 1.66879 19.9744 2.07753L22.0218 4.12489L10.6443 10.6937H8.29797L16.9141 2.07753ZM35.5547 25.5804C35.5547 25.9789 35.2305 26.3031 34.832 26.3031H27.3164C25.9616 26.3031 24.8594 25.2009 24.8594 23.846C24.8594 22.4912 25.9616 21.389 27.3164 21.389H34.832C35.2305 21.389 35.5547 21.7132 35.5547 22.1117V25.5804Z" fill="#4979D2"/>
+                        <path d="M27.1953 23.123C27.0053 23.123 26.8188 23.2003 26.6844 23.3348C26.55 23.4693 26.4727 23.6549 26.4727 23.8457C26.4727 24.0358 26.5499 24.2222 26.6844 24.3565C26.8188 24.491 27.0053 24.5684 27.1953 24.5684C27.3861 24.5684 27.5718 24.491 27.7062 24.3565C27.8413 24.2222 27.918 24.0358 27.918 23.8457C27.918 23.6556 27.8413 23.4692 27.7062 23.3348C27.5718 23.2004 27.3861 23.123 27.1953 23.123Z" fill="#4979D2"/>
+                    </svg>
+                    <div class="wallet__info">
+                        <h3>Доход:</h3>
+                        <p>5300₽</p>
+                    </div>
+                </div></div>
+                <div class="col-10">
+                    <div class="wallet-stats-select d-flex align-items-center">
+                       <div class="col-6 ">
+                        <div class="custom-select">
+                            <div class="custom-select-top">
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7 7L13 1" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+                                 </svg>
+                                    
+                                <input class="custom-select-inp" placeholder="Выберите платежную систему" readonly>
+                            </div>
+                           <div class="custom-select-open">
+                               <span>WebMoney</span>
+                               <span>Qiwi</span>
+                               <span>Visa</span>
+                           </div>
+                               
+                        </div>
+                       </div>
+                        <div class="col-2">
+                            <div class="input-sum">
+                                <input type="text" value="100" class="sumInp w-100" min="1">
+                                <svg width="9" height="11" viewBox="0 0 9 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.05 6.8375V5.84H5.1875C5.2725 5.84 5.375 5.835 5.495 5.825C5.615 5.815 5.7375 5.7975 5.8625 5.7725C6.4025 5.6525 6.805 5.3875 7.07 4.9775C7.34 4.5625 7.475 4.0925 7.475 3.5675C7.475 3.2275 7.4175 2.9 7.3025 2.585C7.1875 2.27 7.01 2 6.77 1.775C6.53 1.55 6.2275 1.3975 5.8625 1.3175C5.7425 1.2875 5.62 1.27 5.495 1.265C5.37 1.26 5.2675 1.2575 5.1875 1.2575H2.0525V0.2H5.2175C5.3025 0.2 5.41 0.205 5.54 0.214999C5.675 0.22 5.8225 0.235 5.9825 0.26C6.5425 0.35 7.0175 0.5475 7.4075 0.8525C7.8025 1.1525 8.1 1.535 8.3 2C8.505 2.465 8.6075 2.98 8.6075 3.545C8.6075 4.385 8.3825 5.0975 7.9325 5.6825C7.4875 6.2675 6.8375 6.6325 5.9825 6.7775C5.8225 6.7975 5.675 6.8125 5.54 6.8225C5.41 6.8325 5.3025 6.8375 5.2175 6.8375H0.05ZM0.05 9.17V8.225H5.8475V9.17H0.05ZM1.1975 11V0.2H2.3V11H1.1975Z" fill="#7C839D"/>
+                                </svg>
+                                    
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <button class="save-changes go-pay mr-0 d-flex justify-content-center align-items-center">Вывести деньги</button>
+                        </div>
+                    </div>
+                </div>
+               </div>
+               <div class="more__question mt-5 mb-5">
+                   <h2 class="main__title mb-5">Часто задаваемые вопросы</h2>
+                   <div class="faq__item mb-1">
+                    <div class="faq__item--title w-100 d-flex justify-content-between align-items-center">
+                        <span>Какой процент выплат от реферальной программы я получу?</span>
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="38" height="38" rx="2" fill="#EDF4FD"/>
+                        <path d="M19 9.66699V28.3337" stroke="#4979D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.66406 19H28.3307" stroke="#4979D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </div>
+                    <div class="faq__item--open">
+                        <p>1) Вы получите письмо на почту, которую указали при оформлении заказа.</p>
+                        <p>2) Ваш заказ будет доступен в вашем личном кабинете.</p>
+                    </div>
+                   </div>
+                   <div class="faq__item mb-1">
+                    <div class="faq__item--title w-100 d-flex justify-content-between align-items-center">
+                        <span>Как долго реферал прикреплён за мной?</span>
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="38" height="38" rx="2" fill="#EDF4FD"/>
+                        <path d="M19 9.66699V28.3337" stroke="#4979D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.66406 19H28.3307" stroke="#4979D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </div>
+                    <div class="faq__item--open">
+                        <p>1) Вы получите письмо на почту, которую указали при оформлении заказа.</p>
+                        <p>2) Ваш заказ будет доступен в вашем личном кабинете.</p>
+                    </div>
+                   </div>
+                   <div class="faq__item mb-1">
+                    <div class="faq__item--title w-100 d-flex justify-content-between align-items-center">
+                        <span>Какие клиенты считаются рефералами?</span>
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="38" height="38" rx="2" fill="#EDF4FD"/>
+                        <path d="M19 9.66699V28.3337" stroke="#4979D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.66406 19H28.3307" stroke="#4979D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </div>
+                    <div class="faq__item--open">
+                        <p>1) Вы получите письмо на почту, которую указали при оформлении заказа.</p>
+                        <p>2) Ваш заказ будет доступен в вашем личном кабинете.</p>
+                    </div>
+                   </div>
+                   <div class="faq__item mb-1">
+                    <div class="faq__item--title w-100 d-flex justify-content-between align-items-center">
+                        <span>В каких случаях можно не получить выплаты за партнёрские ссылки?</span>
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="38" height="38" rx="2" fill="#EDF4FD"/>
+                        <path d="M19 9.66699V28.3337" stroke="#4979D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.66406 19H28.3307" stroke="#4979D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </div>
+                    <div class="faq__item--open">
+                        <p>1) Вы получите письмо на почту, которую указали при оформлении заказа.</p>
+                        <p>2) Ваш заказ будет доступен в вашем личном кабинете.</p>
+                    </div>
+                   </div>
+               </div>
+               <div class="referal__table mt-5">
+                   <h2 class="main__title mb-5">
+                       Статистика
+                   </h2>
+                  <div class="table-wrap">
+                    <table class="lc-stats mt-4">
+                        <tr>
+                            <th>Реферал</th>
+                            <th>Доход</th>
+                            <th>Рефералы</th>
+                            <th>Последний визит</th>
+                            <th>Дата регистрации</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="">
+                                    Nikita Andreew
+                                </a>
+                            </td>
+                            <td>300₽</td>
+                            <td>3</td>
+                            <td>20:15 29.12.2021</td>
+                            <td>10:13 03.01.2022</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="">
+                                    Nikita Andreew
+                                </a>
+                            </td>
+                            <td>300₽</td>
+                            <td>3</td>
+                            <td>20:15 29.12.2021</td>
+                            <td>10:13 03.01.2022</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="">
+                                    Nikita Andreew
+                                </a>
+                            </td>
+                            <td>300₽</td>
+                            <td>3</td>
+                            <td>20:15 29.12.2021</td>
+                            <td>10:13 03.01.2022</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="">
+                                    Nikita Andreew
+                                </a>
+                            </td>
+                            <td>300₽</td>
+                            <td>3</td>
+                            <td>20:15 29.12.2021</td>
+                            <td>10:13 03.01.2022</td>
+                        </tr>
+                    </table>
+                  </div>
+               </div>
+               
+            </div>
+        </div>
+       </div>
+   </main>
+    @include('./layouts/footer.html')
+</body>
+</html>

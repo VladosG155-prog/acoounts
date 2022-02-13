@@ -1,0 +1,11 @@
+@mixin font-face($font-family, $url, $weight) {
+    @font-face {
+        font-family: '#{$font-family}';
+        src: url('../fonts/#{$url}.woff2') format('woff2'),
+        url('../fonts/#{$url}.woff') format('woff');
+        font-weight: #{$weight};
+        font-display: swap;
+        font-style: normal;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');

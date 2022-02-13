@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    @include('./layouts/components/head.html')
+<body>
+    @include('./layouts/header.html')
+   <main class="main">
+    <div class="container">
+        <div class="kroshki">
+            <a href="index.html">Главная</a>
+            <span>/</span>
+            <a href="#">Личный кабинет</a>
+            <span>/</span>
+            <span>Мои покупки</span>
+        </div>
+        <h1 class="main__title mb-5">Личный кабинет</h1>
+        <div class="row history-shop">
+            <div class="col-3">
+                <div class="lc__navigation">
+                    <div class="lc__navigation--balance d-flex justify-content-between align-items-center">
+                        <h3>Баланс </h3>
+                        <div class="lc__navigation--deposit d-flex flex-column align-items-end">
+                            <span>0.00₽</span>
+                            <a href="#">Пополнить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="lc__navigation--item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Аккаунт</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.3359 13.291C19.3359 13.8214 19.1252 14.3302 18.7502 14.7052C18.3751 15.0803 17.8664 15.291 17.3359 15.291H5.33594L1.33594 19.291V3.29102C1.33594 2.76058 1.54665 2.25187 1.92172 1.8768C2.2968 1.50173 2.8055 1.29102 3.33594 1.29102H17.3359C17.8664 1.29102 18.3751 1.50173 18.7502 1.8768C19.1252 2.25187 19.3359 2.76058 19.3359 3.29102V13.291Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                        <span>Заявки</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 4H3C1.89543 4 1 4.89543 1 6V18C1 19.1046 1.89543 20 3 20H21C22.1046 20 23 19.1046 23 18V6C23 4.89543 22.1046 4 21 4Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 10H23" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                            
+                        <span>Пополнение баланса</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item active">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                            
+                            
+                        <span>Мои покупки</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M23 21.0009V19.0009C22.9993 18.1146 22.7044 17.2536 22.1614 16.5532C21.6184 15.8527 20.8581 15.3524 20 15.1309" stroke="#7C839D" stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 3.13086C16.8604 3.35116 17.623 3.85156 18.1676 4.55317C18.7122 5.25478 19.0078 6.11769 19.0078 7.00586C19.0078 7.89403 18.7122 8.75694 18.1676 9.45855C17.623 10.1602 16.8604 10.6606 16 10.8809" stroke="#7C839D" stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>  
+                            
+                        <span>Реферальная программа</span>
+                    </a>
+                    <a href="#" class="lc__navigation--item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.72656 3.31836H4.72656C4.19613 3.31836 3.68742 3.52907 3.31235 3.90415C2.93728 4.27922 2.72656 4.78793 2.72656 5.31836L2.72656 19.3184C2.72656 19.8488 2.93728 20.3575 3.31235 20.7326C3.68742 21.1076 4.19613 21.3184 4.72656 21.3184H8.72656" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.7266 7.31836L20.7266 12.3184L15.7266 17.3184" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20.7266 12.3184L8.72656 12.3184" stroke="#7C839D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                            
+                        <span>Выход</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="table-wrap">
+                    <table class="table-story">
+                        <tr>
+                            <th>ID</th>
+                            <th>Товар</th>
+                            <th>Информация</th>
+                            <th>Дата</th>
+                            <th>Продавец</th>
+                            <th>Статус</th>
+                            <th>Скачать</th>
+                        </tr>
+                        <tr>
+                            <td>#2036349</td>
+                            <td>Аккаунты FB | Подтверждены по почте, почты в комплекте нет. </td>
+                            <td>
+                                <p>Цена: <span>1000₽</span></p>
+                                <p>Кол-во: <span> 200 шт</span></p>
+                            </td>
+                            <td>01.03.2022</td>
+                            <td>
+                                <p>Felix.accounts</p>
+                                <button class="go-review">Оставить отзыв</button>
+                            </td>
+                            <td>
+                                <span class="success">Завершён</span>
+                            </td>
+                            <td>
+                                <a href="#" class="download">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 15V19C3.5 19.5304 3.71071 20.0391 4.08579 20.4142C4.46086 20.7893 4.96957 21 5.5 21H19.5C20.0304 21 20.5391 20.7893 20.9142 20.4142C21.2893 20.0391 21.5 19.5304 21.5 19V15" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M17.5 10L12.5 15L7.5 10" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5 15V3" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>  
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2036349</td>
+                            <td>Аккаунты FB | Подтверждены по почте, почты в комплекте нет. </td>
+                            <td>
+                                <p>Цена: <span>1000₽</span></p>
+                                <p>Кол-во: <span> 200 шт</span></p>
+                            </td>
+                            <td>01.03.2022</td>
+                            <td>
+                                <p>Felix.accounts</p>
+                                <button class="go-review">Оставить отзыв</button>
+                            </td>
+                            <td>
+                                <span class="wait">Обработка</span>
+                            </td>
+                            <td>
+                                <a href="#" class="download">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 15V19C3.5 19.5304 3.71071 20.0391 4.08579 20.4142C4.46086 20.7893 4.96957 21 5.5 21H19.5C20.0304 21 20.5391 20.7893 20.9142 20.4142C21.2893 20.0391 21.5 19.5304 21.5 19V15" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M17.5 10L12.5 15L7.5 10" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5 15V3" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>  
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2036349</td>
+                            <td>Аккаунты FB | Подтверждены по почте, почты в комплекте нет. </td>
+                            <td>
+                                <p>Цена: <span>1000₽</span></p>
+                                <p>Кол-во: <span> 200 шт</span></p>
+                            </td>
+                            <td>01.03.2022</td>
+                            <td>
+                                <p>Felix.accounts</p>
+                                <button class="go-review">Оставить отзыв</button>
+                            </td>
+                            <td>
+                                <span class="error">Не оплачен</span>
+                            </td>
+                            <td>
+                                <a href="#" class="download disabled">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 15V19C3.5 19.5304 3.71071 20.0391 4.08579 20.4142C4.46086 20.7893 4.96957 21 5.5 21H19.5C20.0304 21 20.5391 20.7893 20.9142 20.4142C21.2893 20.0391 21.5 19.5304 21.5 19V15" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M17.5 10L12.5 15L7.5 10" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5 15V3" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>  
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2036349</td>
+                            <td>Аккаунты FB | Подтверждены по почте, почты в комплекте нет. </td>
+                            <td>
+                                <p>Цена: <span>1000₽</span></p>
+                                <p>Кол-во: <span> 200 шт</span></p>
+                            </td>
+                            <td>01.03.2022</td>
+                            <td>
+                                <p>Felix.accounts</p>
+                                <button class="go-review">Оставить отзыв</button>
+                            </td>
+                            <td>
+                                <span class="success">Завершён</span>
+                            </td>
+                            <td>
+                                <a href="#" class="download">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 15V19C3.5 19.5304 3.71071 20.0391 4.08579 20.4142C4.46086 20.7893 4.96957 21 5.5 21H19.5C20.0304 21 20.5391 20.7893 20.9142 20.4142C21.2893 20.0391 21.5 19.5304 21.5 19V15" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M17.5 10L12.5 15L7.5 10" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5 15V3" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>  
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2036349</td>
+                            <td>Аккаунты FB | Подтверждены по почте, почты в комплекте нет. </td>
+                            <td>
+                                <p>Цена: <span>1000₽</span></p>
+                                <p>Кол-во: <span> 200 шт</span></p>
+                            </td>
+                            <td>01.03.2022</td>
+                            <td>
+                                <p>Felix.accounts</p>
+                                <button class="go-review">Оставить отзыв</button>
+                            </td>
+                            <td>
+                                <span class="wait">Обработка</span>
+                            </td>
+                            <td>
+                                <a href="#" class="download">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 15V19C3.5 19.5304 3.71071 20.0391 4.08579 20.4142C4.46086 20.7893 4.96957 21 5.5 21H19.5C20.0304 21 20.5391 20.7893 20.9142 20.4142C21.2893 20.0391 21.5 19.5304 21.5 19V15" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M17.5 10L12.5 15L7.5 10" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5 15V3" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>  
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2036349</td>
+                            <td>Аккаунты FB | Подтверждены по почте, почты в комплекте нет. </td>
+                            <td>
+                                <p>Цена: <span>1000₽</span></p>
+                                <p>Кол-во: <span> 200 шт</span></p>
+                            </td>
+                            <td>01.03.2022</td>
+                            <td>
+                                <p>Felix.accounts</p>
+                                <button class="go-review">Оставить отзыв</button>
+                            </td>
+                            <td>
+                                <span class="error">Не оплачен</span>
+                            </td>
+                            <td>
+                                <a href="#" class="download disabled">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 15V19C3.5 19.5304 3.71071 20.0391 4.08579 20.4142C4.46086 20.7893 4.96957 21 5.5 21H19.5C20.0304 21 20.5391 20.7893 20.9142 20.4142C21.2893 20.0391 21.5 19.5304 21.5 19V15" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M17.5 10L12.5 15L7.5 10" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5 15V3" stroke="#4979D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>  
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="pages--nav d-flex mt-5">
+                    <span class="col-2">Показано: 3 из 24</span>
+                    <div class="pages--nav--list offset-2 d-flex align-items-center">
+                        <a href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 7L0.46967 7.53033C0.176777 7.23744 0.176777 6.76256 0.46967 6.46967L1 7ZM6.46967 13.5303L0.46967 7.53033L1.53033 6.46967L7.53033 12.4697L6.46967 13.5303ZM0.46967 6.46967L6.46967 0.46967L7.53033 1.53033L1.53033 7.53033L0.46967 6.46967Z" fill="#4979D2"/>
+                            </svg>
+                            </a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 7L7.53033 7.53033C7.82322 7.23744 7.82322 6.76256 7.53033 6.46967L7 7ZM1.53033 13.5303L7.53033 7.53033L6.46967 6.46967L0.46967 12.4697L1.53033 13.5303ZM7.53033 6.46967L1.53033 0.46967L0.46967 1.53033L6.46967 7.53033L7.53033 6.46967Z" fill="#4979D2"/>
+                            </svg>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+   </main>
+    @include('./layouts/footer.html')
+</body>
+</html>
